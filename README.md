@@ -3,13 +3,13 @@
 ## Install
 
 ```bash
-  npm i @k-art/masonry-grid
+  npm i responsive-masonry-grid
 ```
 
 or
 
 ```bash
-yarn add @k-art/masonry-grid
+yarn add responsive-masonry-grid
 ```
 
 ## Setup
@@ -21,7 +21,7 @@ yarn add @k-art/masonry-grid
 - items should be an array of propless components
 
 ```tsx
-  import { MasonryGrid } from '@k-art/masonry-grid';
+  import { MasonryGrid } from 'responsive-masonry-grid';
 
   <MasonryGrid items={[React.FC, React.FC, ..., React.FC]} gap={24} />
 ```
