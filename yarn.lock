@@ -681,24 +681,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ka-masonry-grid@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "ka-masonry-grid@workspace:."
-  dependencies:
-    "@types/lodash": 4.17.16
-    "@types/react": 18.2.0
-    "@types/react-dom": 18.2.0
-    classnames: 2.5.1
-    rimraf: 6.0.1
-    sass: 1.86.3
-    typescript: 5.8.3
-  peerDependencies:
-    lodash: "*"
-    react: ">=17.0.0"
-    react-dom: ">=17.0.0"
-  languageName: unknown
-  linkType: soft
-
 "lru-cache@npm:^10.0.1, lru-cache@npm:^10.2.0":
   version: 10.4.3
   resolution: "lru-cache@npm:10.4.3"
@@ -977,6 +959,24 @@ __metadata:
   checksum: 3242ee125422cb7c0e12d51452e993f507e6ed3d8c490bc8bf3366c5cdd09167562224e429b13e9cb2b98d4b8b2b11dc100d3c73883aa92d657ade5a21ded004
   languageName: node
   linkType: hard
+
+"responsive-masonry-grid@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "responsive-masonry-grid@workspace:."
+  dependencies:
+    "@types/lodash": 4.17.16
+    "@types/react": 18.2.0
+    "@types/react-dom": 18.2.0
+    classnames: 2.5.1
+    rimraf: 6.0.1
+    sass: 1.86.3
+    typescript: 5.8.3
+  peerDependencies:
+    lodash: "*"
+    react: ">=17.0.0"
+    react-dom: ">=17.0.0"
+  languageName: unknown
+  linkType: soft
 
 "retry@npm:^0.12.0":
   version: 0.12.0

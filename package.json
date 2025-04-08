@@ -1,7 +1,7 @@
 {
-  "name": "ka-masonry-grid",
+  "name": "responsive-masonry-grid",
   "version": "1.0.0",
-  "description": "Masonry grid layout",
+  "description": "Responsive masonry grid",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
