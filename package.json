@@ -1,7 +1,7 @@
 {
   "name": "@k-art/masorny",
   "version": "1.0.0",
-  "description": "Masorny grid layout",
+  "description": "Masonry grid layout",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
