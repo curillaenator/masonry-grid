@@ -3,13 +3,13 @@
 ## Install
 
 ```bash
-  npm i @k-art/masorny
+  npm i @k-art/masonry-grid
 ```
 
 or
 
 ```bash
-yarn add @k-art/masorny
+yarn add @k-art/masonry-grid
 ```
 
 ## Setup
@@ -21,7 +21,7 @@ yarn add @k-art/masorny
 - items should be an array of propless components
 
 ```tsx
-  import { MasonryGrid } from '@k-art/masonry';
+  import { MasonryGrid } from '@k-art/masonry-grid';
 
   <MasonryGrid items={[React.FC, React.FC, ..., React.FC]} gap={24} />
 ```
