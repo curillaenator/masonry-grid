@@ -1,5 +1,5 @@
 {
-  "name": "@k-art/masonry",
+  "name": "@k-art/masonry-grid",
   "version": "1.0.0",
   "description": "Masonry grid layout",
   "main": "dist/index.cjs",
@@ -54,10 +54,10 @@
   "packageManager": "yarn@3.6.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/curillaenator/masorny.git"
+    "url": "https://github.com/curillaenator/masonry-grid.git"
   },
   "bugs": {
-    "url": "https://github.com/curillaenator/masorny/issues"
+    "url": "https://github.com/curillaenator/masonry-grid/issues"
   },
-  "homepage": "https://github.com/curillaenator/masorny#readme"
+  "homepage": "https://github.com/curillaenator/masonry-grid#readme"
 }
