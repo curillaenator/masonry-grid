@@ -4,10 +4,21 @@
 
 ```bash
   npm i @k-art/masorny
-  yarn add @k-art/masorny
 ```
 
+or
+
+```bash
+yarn add @k-art/masorny
+```
+
+## Setup
+
+- pakage uses css-modules, so it must be configured in your project
+
 ## Usage
+
+- items should be an array of propless components
 
 ```tsx
   import { MasonryGrid } from '@k-art/masonry';
