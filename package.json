@@ -1,6 +1,6 @@
 {
-  "name": "@k-art/masorny",
-  "version": "1.0.1",
+  "name": "@k-art/masonry",
+  "version": "1.0.0",
   "description": "Masonry grid layout",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",

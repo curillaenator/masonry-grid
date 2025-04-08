@@ -28,9 +28,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@k-art/masorny@workspace:.":
+"@k-art/masonry@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@k-art/masorny@workspace:."
+  resolution: "@k-art/masonry@workspace:."
   dependencies:
     "@types/lodash": ^4.17.14
     "@types/react": ">=18.2.0"
