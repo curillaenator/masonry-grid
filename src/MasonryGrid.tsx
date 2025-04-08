@@ -3,8 +3,9 @@ import { uniqueId } from 'lodash';
 import cn from 'classnames';
 
 import { useMasonrizeItems } from './hooks/useMasonrizeItems';
-import type { MasonryGridProps } from './interfaces';
 
+import { CELL_KEY_PREFIX, COL_KEY_PREFIX } from './constants';
+import type { MasonryGridProps } from './interfaces';
 import styles from './masonry.module.scss';
 
 const MasonryGrid: FC<MasonryGridProps> = (props) => {
@@ -21,9 +22,9 @@ const MasonryGrid: FC<MasonryGridProps> = (props) => {
         masonryItems.map(
           (col) =>
             !!col.length && (
-              <div key={uniqueId('masonry-col-')} className={styles.flexCol}>
+              <div key={uniqueId(COL_KEY_PREFIX)} className={styles.flexCol}>
                 {col.map((Item) => (
-                  <div key={uniqueId('masonry-cell-')} className={styles.cell}>
+                  <div key={uniqueId(CELL_KEY_PREFIX)} className={styles.cell}>
                     <Item />
                   </div>
                 ))}

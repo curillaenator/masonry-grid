@@ -8,12 +8,23 @@
   "files": [
     "dist"
   ],
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs",
+    "types": "./dist/index.d.ts"
+  },
   "keywords": [
-    "React",
-    "Masorny",
-    "Grid"
+    "react",
+    "masonry",
+    "grid",
+    "layout",
+    "ui",
+    "component"
   ],
-  "author": "https://github.com/curillaenator",
+  "author": {
+    "name": "Kirill Art",
+    "url": "https://github.com/curillaenator"
+  },
   "license": "ISC",
   "scripts": {
     "build": "npx rimraf dist && npx yarn build:ts && npx yarn build:scss && npx yarn build:fix",
@@ -36,6 +47,9 @@
     "rimraf": "^6.0.1",
     "sass": "^1.86.3",
     "typescript": "^5.8.3"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "packageManager": "yarn@3.6.0"
 }
