@@ -3,7 +3,7 @@
 
 import { DEFAULT_COLS, DEFAULT_GAP, DEFAULT_ELEMENT_MIN_WIDTH } from './constants';
 
-export const makeMasonryLayout = <T>(items: T[], cols: number = 1): T[][] => {
+const makeMasonryLayout = <T>(items: T[], cols: number = 1): T[][] => {
   const Q = cols < 1 ? 1 : cols;
 
   const columns: Record<number, T[]> = Object.fromEntries([...new Array(Q)].map((_, i) => [`${i}`, []]));
@@ -22,7 +22,7 @@ interface ColsControlOptions {
 }
 
 // контроллер кол-ва колонок в лейауте
-export class ColsControl {
+class ColsControl {
   private _cols: number = DEFAULT_COLS;
 
   private _elementMinWidth: number = DEFAULT_ELEMENT_MIN_WIDTH;
@@ -64,3 +64,5 @@ export class ColsControl {
     this._cols = Math.floor((width + this._gap) / (this._elementMinWidth + this._gap));
   }
 }
+
+export { ColsControl, makeMasonryLayout };
